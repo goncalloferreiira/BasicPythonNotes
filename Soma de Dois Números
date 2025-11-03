@@ -1,0 +1,4 @@
+num1 = int(input("Introduza o primeiro número: "))   # Solicita e converte o primeiro número para inteiro.
+num2 = int(input("Introduza o segundo número: "))    # Solicita e converte o segundo número para inteiro.
+soma = num1 + num2                                   # Realiza a soma dos dois números.
+print("Soma:", soma)                                 # Apresenta o resultado da soma.
