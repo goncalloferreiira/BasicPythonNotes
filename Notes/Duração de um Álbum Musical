@@ -1,12 +1,12 @@
-total_segundos_album = 0                                     # Inicializa o contador total de segundos do álbum.
+total_segundos_album = 0                                                             # Inicializa o contador total de segundos do álbum.
 
 for i in range(1, 6): # Itera por 5 músicas (i de 1 a 5).
-    minutos = int(input(f"Minutos da {i}ª música: "))        # Solicita os minutos da música atual.
-    segundos = int(input(f"Segundos da {i}ª música: "))      # Solicita os segundos da música atual.
-    total_segundos_album += (minutos * 60) + segundos        # Converte minutos para segundos e adiciona ao total.
+    minutos = int(input(f"Minutos da {i}ª música: "))                                # Solicita os minutos da música atual.
+    segundos = int(input(f"Segundos da {i}ª música: "))                              # Solicita os segundos da música atual.
+    total_segundos_album += (minutos * 60) + segundos                                # Converte minutos para segundos e adiciona ao total.
 
-horas = total_segundos_album // 3600                         # Calcula o número total de horas.
-minutos_restantes = (total_segundos_album % 3600) // 60      # Calcula os minutos restantes após as horas.
-segundos_restantes = total_segundos_album % 60               # Calcula os segundos restantes após horas e minutos.
+horas = total_segundos_album // 3600                                                 # Calcula o número total de horas.
+minutos_restantes = (total_segundos_album % 3600) // 60                              # Calcula os minutos restantes após as horas.
+segundos_restantes = total_segundos_album % 60                                       # Calcula os segundos restantes após horas e minutos.
 
-print(f"Total do Álbum: {horas}h {minutos_restantes}m {segundos_restantes}s")      # Apresenta a duração formatada.
+print(f"Total do Álbum: {horas}h {minutos_restantes}m {segundos_restantes}s")        # Apresenta a duração formatada.
