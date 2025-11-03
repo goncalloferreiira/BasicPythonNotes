@@ -1,0 +1,20 @@
+lugar = int(input("Lugar na corrida: "))      # Solicita e converte o lugar do piloto para inteiro.
+
+if (lugar == 1):                              # Verifica se o lugar é 1º.
+    print("Ganhou 10 pontos")                 # Atribui 10 pontos.
+if (lugar == 2):                              # Verifica se o lugar é 2º.
+    print("Ganhou 8 pontos")                  # Atribui 8 pontos.
+if (lugar == 3):                              # Verifica se o lugar é 3º.
+    print("Ganhou 6 pontos")                  # Atribui 6 pontos.
+if (lugar == 4):                              # Verifica se o lugar é 4º.
+    print("Ganhou 5 pontos")                  # Atribui 5 pontos.
+if (lugar == 5):                              # Verifica se o lugar é 5º.
+    print("Ganhou 4 pontos")                  # Atribui 4 pontos.
+if (lugar == 6):                              # Verifica se o lugar é 6º.
+    print("Ganhou 3 pontos")                  # Atribui 3 pontos.
+if (lugar == 7):                              # Verifica se o lugar é 7º.
+    print("Ganhou 2 pontos")                  # Atribui 2 pontos.
+if (lugar == 8):                              # Verifica se o lugar é 8º.
+    print("Ganhou 1 ponto")                   # Atribui 1 ponto.
+if (lugar >= 9):                              # Verifica se o lugar é 9º ou superior.
+    print("Não ganhou pontos")                # Não atribui pontos.
