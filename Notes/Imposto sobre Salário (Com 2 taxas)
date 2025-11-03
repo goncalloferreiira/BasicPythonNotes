@@ -1,0 +1,8 @@
+salario = float(input("Salário Anual: "))     # Solicita e converte o salário anual para float.
+
+if (salario <= 15000):                        # Verifica se o salário é até 15.000€.
+    impostos = salario * 0.2                  # Calcula impostos à taxa de 20%.
+    print("Taxas de 20%:", impostos)          # Imprime os impostos e a taxa aplicada.
+else:                                         # Se o salário for superior a 15.000€.
+    impostos = salario * 0.3                  # Calcula impostos à taxa de 30%.
+    print("Taxas de 30%:", impostos)          # Imprime os impostos e a taxa aplicada.
