@@ -1,6 +1,5 @@
 # PythonNotes for Dummies 
 
-Este repositório está recheado de exercícios e explicações de Python.
+Repo repleto de exercícios e as suas respetivas explicações
 
-Cada solução é detalhadamente desconstruída, garantindo que mesmo os conceitos mais *teimosos* finalmente façam sentido.
-
+Se estás a ver isto, TU comes merda.
