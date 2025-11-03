@@ -1,4 +1,4 @@
-# PythonNotes for Dummies 
+# BasicPythonNotes for Dummies 
 
 Repo repleto de exercícios atoa (com explicações dos mesmos)
 
